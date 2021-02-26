@@ -1,0 +1,25 @@
+<svg width="250" height="550" xmlns="http://www.w3.org/2000/svg">
+    <!-- Visage -->
+    <circle cx="100" cy="100" r="55" fill="khaki"></circle>
+    <circle cx="80" cy="90" r="5" fill="black"></circle>
+    <circle cx="120" cy="90" r="5" fill="black"></circle>
+    <path d="M 80 120 L 90 130 110 130 120 120" fill="none" stroke="black"></path>
+    <ellipse cx="100" cy="60" rx="40" ry="10" fill="none" stroke="lightcoral" stroke-width="5" stroke-dasharray="305" stroke-dashoffset="220"/>
+
+    <!-- Tomate -->
+    <ellipse cx="50" cy="336" rx="35" ry="7" fill="black"/>
+    <ellipse cx="50" cy="300" rx="40" ry="35" fill="tomato"/>
+    <line x1="50" y1="270" x2="40" y2="260" stroke="green" stroke-width="4"/>
+    <line x1="50" y1="270" x2="45" y2="255" stroke="green" stroke-width="4"/>
+    <line x1="50" y1="270" x2="55" y2="260" stroke="green" stroke-width="4"/>
+    <!-- <ellipse cx="70" cy="290" rx="12" ry="7" fill="navajowhite" transform="rotate(10)"/> -->
+
+    <!-- Flèche -->
+    <path d="M 200 200 L 200 260 250 250 195 350 140 250 190 260 190 200 Z" fill="cornflowerblue"/>
+
+    <!-- Route -->
+    <path d="M 80 400 L 120 400 170 500 130 500 Z" fill="lightgray"/>
+    <line x1="100" y1="400" x2="150" y2="500"  stroke="black" stroke-width="5" stroke-dasharray="20 4"/>
+    <line x1="80" y1="400" x2="130" y2="500" stroke="black" stroke-width="2"/>
+    <line x1="120" y1="400" x2="170" y2="500" stroke="black" stroke-width="2"/>
+</svg>
