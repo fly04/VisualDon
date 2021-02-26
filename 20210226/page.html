@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #tomate {
+            fill: tomato;
+        }
+
+        #tomate:hover {
+            fill: darkkhaki;
+        }
+    </style>
+</head>
+
+<body>
+    <svg id="svg" width="500" height="500">
+        <ellipse id="ombre" cx="50" cy="336" rx="35" ry="7" fill="black" />
+        <ellipse id="tomate" cx="50" cy="300" rx="40" ry="35" />
+        <line x1="50" y1="270" x2="40" y2="260" stroke="green" stroke-width="4" />
+        <line x1="50" y1="270" x2="45" y2="255" stroke="green" stroke-width="4" />
+        <line x1="50" y1="270" x2="55" y2="260" stroke="green" stroke-width="4" />
+
+        <script>
+            const ombre = document.getElementById('ombre');
+            const tomate = document.getElementById('tomate');
+            let isFull = true;
+
+            tomate.addEventListener('click', () => {
+                isFull = !isFull;
+                tomate.setAttribute('rx', isFull ? 10 : 40);
+                ombre.setAttribute('rx', isFull ? 5 : 35);
+                ombre.setAttribute('ry', isFull ? 2 : 7);
+            })
+
+        </script>
+    </svg>
+</body>
+<script>
+
+</script>
+
+</html>
