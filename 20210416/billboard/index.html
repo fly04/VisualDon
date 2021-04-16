@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/billboard.js@3.0.2/dist/billboard.min.css" />
+    <script src="https://unpkg.com/billboard.js@3.0.2/dist/billboard.pkgd.min.js"></script>
+</head>
+
+<body>
+    <div id="graph"></div>
+    <script>
+
+        // const fs = require('fs');
+        // const rawdata = fs.readFileSync('../excel/dataVilles.json', 'utf-8');
+        // const datas = JSON.parse(rawdata);
+        // console.log(datas);
+
+        const data = [
+            {
+                "ville": "Lausanne",
+                "nbVoyageurs": 89200
+            },
+            {
+                "ville": "Vevey",
+                "nbVoyageurs": 21000
+            },
+            {
+                "ville": "Renens VD",
+                "nbVoyageurs": 18300
+            },
+            {
+                "ville": "Morges",
+                "nbVoyageurs": 17000
+            },
+            {
+                "ville": "Yverdon-les-Bains",
+                "nbVoyageurs": 16800
+            },
+            {
+                "ville": "Nyon",
+                "nbVoyageurs": 15900
+            },
+            {
+                "ville": "Montreux",
+                "nbVoyageurs": 15800
+            }
+        ]
+
+        bb.generate({
+            bindto: "#graph",
+            data: {
+                type: "bar",
+                json: { "Voyageurs": data.map(d => d.nbVoyageurs) }
+            },
+            axis: {
+                x: {
+                    type: 'category',
+                    categories: data.map(d => d.ville)
+                }
+            },
+            color: {
+                pattern: ['indianred'],
+            }
+        })
+
+        // bb.generate({
+        //     bindto: "#graph",
+        //     data: {
+        //         type: "bar",
+        //         json: {"Voyageurs" : data.map(d => d.nbVoyageurs)}
+        //     }
+        // })
+
+
+
+        /*Autre manière de faire*/
+        // bb.generate({
+        // bindto: "#graph",
+        // data: {
+        //     type: "bar",
+        //     columns: [
+        //     [ 'Aarau', 37900 ],
+        //     [ 'Baden', 32100 ],
+        //     [ 'Chur', 24300 ],
+        //     [ 'Burgdorf', 16300 ],
+        //     [ 'Bellinzona', 16000 ]
+        //     ]
+        // }
+        // })
+    </script>
+</body>
+
+</html>
