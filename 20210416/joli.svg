@@ -1,0 +1,28 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter id="noise">
+            <feTurbulence baseFrequency="0.1" />
+            <feDisplacementMap in="SourceGraphic" scale="7" />
+        </filter>
+
+        <filter id="lessNoise">
+            <feTurbulence baseFrequency="0.05" />
+            <feDisplacementMap in="SourceGraphic" scale="7" />
+        </filter>
+
+        <pattern id="circles" x="0" y="0" width="0.15" height="0.15">
+            <circle filter="url(#noise)" cx="1" cy="1" r="3" fill="darkgray"></circle>
+        </pattern>
+    </defs>
+
+
+    <!-- Route -->
+    <path d="M 80 400 L 120 400 170 500 130 500 Z" fill="lightgray" />
+    <path d="M 80 400 L 120 400 170 500 130 500 Z" fill="url(#circles)" />
+    
+    <line filter="url(#noise)" x1="80" y1="400" x2="130" y2="500" stroke="black" stroke-width="2" />
+    <line filter="url(#noise)" x1="120" y1="400" x2="170" y2="500" stroke="black" stroke-width="2" />
+
+    <line filter="url(#lessNoise)" x1="100" y1="400" x2="150" y2="500" stroke="black" stroke-width="5"
+        stroke-dasharray="20 6" />
+</svg>
