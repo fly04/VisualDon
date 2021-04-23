@@ -1,0 +1,351 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-04-23T12:26:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1974173823",
+        "addr:city": "Sion",
+        "addr:housenumber": "19",
+        "addr:postcode": "1950",
+        "addr:street": "Rue de la Dixence",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "delivery": "yes",
+        "name": "Cap Cap",
+        "opening_hours": "Tu-Th 08:00-22:00; Fr,Sa 08:00-23:00; Su 17:00-22:00",
+        "phone": "+41 79 539 03 09",
+        "website": "https://www.cap-cap.ch/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.363611,
+          46.2306765
+        ]
+      },
+      "id": "node/1974173823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2319805381",
+        "addr:city": "Sion",
+        "addr:housenumber": "37",
+        "addr:postcode": "1950",
+        "addr:street": "Place du Midi",
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "Coucou Sushi",
+        "opening_hours": "Mo-Sa 11:00-14:30,16:46-21:30",
+        "phone": "+41 27 203 10 10",
+        "website": "https://coucousushi-sion.ch/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3619619,
+          46.2321213
+        ]
+      },
+      "id": "node/2319805381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3202393763",
+        "addr:housenumber": "5",
+        "addr:street": "Place du Scex",
+        "amenity": "restaurant",
+        "name": "le C"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3625423,
+          46.2325014
+        ]
+      },
+      "id": "node/3202393763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3585627900",
+        "addr:city": "Sion",
+        "addr:housenumber": "29",
+        "addr:postcode": "1950",
+        "addr:street": "Place du Midi",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "La Tonnella",
+        "opening_hours": "Mo-Fr 10:00-22:00; Sa-Su 10:00-23:00",
+        "phone": "+41 27 322 30 01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3615171,
+          46.2317385
+        ]
+      },
+      "id": "node/3585627900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3585630095",
+        "addr:city": "Sion",
+        "addr:housenumber": "10",
+        "addr:postcode": "1950",
+        "addr:street": "Rue du Scex",
+        "amenity": "restaurant",
+        "cuisine": "Fondue_bacchus,_chinoise,_bourguignonne",
+        "name": "Restaurant de l'Hôtel du Rhône",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "phone": "+41 27 322 82 91"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3633373,
+          46.2318061
+        ]
+      },
+      "id": "node/3585630095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3777131963",
+        "addr:city": "Sion",
+        "addr:housenumber": "30",
+        "addr:postcode": "1950",
+        "addr:street": "Place du Midi",
+        "amenity": "restaurant",
+        "name": "Le Riche Lieu",
+        "opening_hours": "Ouvert Lu-Sa (sauf lundi soir)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3612789,
+          46.2311553
+        ]
+      },
+      "id": "node/3777131963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3785006655",
+        "addr:city": "Sion",
+        "addr:housenumber": "12",
+        "addr:postcode": "1950",
+        "addr:street": "Espace des Remparts",
+        "amenity": "restaurant",
+        "capacity": "50",
+        "cuisine": "pizza",
+        "name": "Chez Toto",
+        "name:fr": "Don Carlos",
+        "smoking": "outside",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3598723,
+          46.2314873
+        ]
+      },
+      "id": "node/3785006655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3876214004",
+        "addr:city": "Sion",
+        "addr:housenumber": "31",
+        "addr:postcode": "1950",
+        "addr:street": "Place du Midi",
+        "amenity": "restaurant",
+        "name": "Café de la Place",
+        "opening_hours": "Mo-Sa 07:00-00:00; Su 09:00-13:00",
+        "phone": "+41 27 322 18 26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3616077,
+          46.2317786
+        ]
+      },
+      "id": "node/3876214004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3876239954",
+        "amenity": "restaurant",
+        "name": "Manor",
+        "name:fr": "Manora"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3593014,
+          46.2310673
+        ]
+      },
+      "id": "node/3876239954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3876246291",
+        "amenity": "restaurant",
+        "name": "Coop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3631627,
+          46.2317753
+        ]
+      },
+      "id": "node/3876246291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4287448825",
+        "addr:city": "Sion",
+        "addr:housenumber": "12",
+        "addr:postcode": "1950",
+        "addr:street": "Rue du Scex",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Persico",
+        "opening_hours": "Ouvert du mardi au samedi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3639566,
+          46.2320149
+        ]
+      },
+      "id": "node/4287448825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4287483120",
+        "addr:city": "Sion",
+        "addr:housenumber": "35",
+        "addr:postcode": "1950",
+        "addr:street": "Place du Midi",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Da Vinci",
+        "opening_hours": "Mo-Fr 10:00-22:00; Sa 10:00-23:00",
+        "phone": "+41 27 322 15 43",
+        "website": "http://www.sionrestos.com/davinci/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3618577,
+          46.2319788
+        ]
+      },
+      "id": "node/4287483120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323678136",
+        "amenity": "restaurant",
+        "name": "Le Ticino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3611643,
+          46.2306441
+        ]
+      },
+      "id": "node/5323678136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6630814256",
+        "addr:city": "Sion",
+        "addr:postcode": "1950",
+        "addr:street": "Espace des Remparts",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Chez Chou",
+        "website": "http://restaurantchezchou.ch/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3600918,
+          46.2315493
+        ]
+      },
+      "id": "node/6630814256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7047572115",
+        "amenity": "restaurant",
+        "name": "Taverne sédunoise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3615304,
+          46.2320107
+        ]
+      },
+      "id": "node/7047572115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8358643709",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3617188,
+          46.232633
+        ]
+      },
+      "id": "node/8358643709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8358657734",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3611103,
+          46.2327386
+        ]
+      },
+      "id": "node/8358657734"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.56.9 76e5016d",
+  "osm3s": {
+    "timestamp_osm_base": "2021-04-23T12:04:37Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2319805381,
+      "lat": 46.2321213,
+      "lon": 7.3619619,
+      "tags": {
+        "addr:city": "Sion",
+        "addr:housenumber": "37",
+        "addr:postcode": "1950",
+        "addr:street": "Place du Midi",
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "Coucou Sushi",
+        "opening_hours": "Mo-Sa 11:00-14:30,16:46-21:30",
+        "phone": "+41 27 203 10 10",
+        "website": "https://coucousushi-sion.ch/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3585627900,
+      "lat": 46.2317385,
+      "lon": 7.3615171,
+      "tags": {
+        "addr:city": "Sion",
+        "addr:housenumber": "29",
+        "addr:postcode": "1950",
+        "addr:street": "Place du Midi",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "La Tonnella",
+        "opening_hours": "Mo-Fr 10:00-22:00; Sa-Su 10:00-23:00",
+        "phone": "+41 27 322 30 01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3777131963,
+      "lat": 46.2311553,
+      "lon": 7.3612789,
+      "tags": {
+        "addr:city": "Sion",
+        "addr:housenumber": "30",
+        "addr:postcode": "1950",
+        "addr:street": "Place du Midi",
+        "amenity": "restaurant",
+        "name": "Le Riche Lieu",
+        "opening_hours": "Ouvert Lu-Sa (sauf lundi soir)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3785006655,
+      "lat": 46.2314873,
+      "lon": 7.3598723,
+      "tags": {
+        "addr:city": "Sion",
+        "addr:housenumber": "12",
+        "addr:postcode": "1950",
+        "addr:street": "Espace des Remparts",
+        "amenity": "restaurant",
+        "capacity": "50",
+        "cuisine": "pizza",
+        "name": "Chez Toto",
+        "name:fr": "Don Carlos",
+        "smoking": "outside",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3876214004,
+      "lat": 46.2317786,
+      "lon": 7.3616077,
+      "tags": {
+        "addr:city": "Sion",
+        "addr:housenumber": "31",
+        "addr:postcode": "1950",
+        "addr:street": "Place du Midi",
+        "amenity": "restaurant",
+        "name": "Café de la Place",
+        "opening_hours": "Mo-Sa 07:00-00:00; Su 09:00-13:00",
+        "phone": "+41 27 322 18 26"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3876239954,
+      "lat": 46.2310673,
+      "lon": 7.3593014,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Manor",
+        "name:fr": "Manora"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4287483120,
+      "lat": 46.2319788,
+      "lon": 7.3618577,
+      "tags": {
+        "addr:city": "Sion",
+        "addr:housenumber": "35",
+        "addr:postcode": "1950",
+        "addr:street": "Place du Midi",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Da Vinci",
+        "opening_hours": "Mo-Fr 10:00-22:00; Sa 10:00-23:00",
+        "phone": "+41 27 322 15 43",
+        "website": "http://www.sionrestos.com/davinci/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5323678136,
+      "lat": 46.2306441,
+      "lon": 7.3611643,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Le Ticino"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6630814256,
+      "lat": 46.2315493,
+      "lon": 7.3600918,
+      "tags": {
+        "addr:city": "Sion",
+        "addr:postcode": "1950",
+        "addr:street": "Espace des Remparts",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Chez Chou",
+        "website": "http://restaurantchezchou.ch/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7047572115,
+      "lat": 46.2320107,
+      "lon": 7.3615304,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Taverne sédunoise"
+      }
+    }
+  ]
+}
