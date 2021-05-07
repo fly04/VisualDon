@@ -1,0 +1,66 @@
+<html>
+
+<body>
+    <canvas id="mon-dessin" width="500" height="300"></canvas>
+    <script>
+
+        const canvas = document.getElementById('mon-dessin')
+        const context = canvas.getContext('2d')
+
+        //Ciel
+        context.fillStyle = "#AADADE";
+        context.fillRect(0, 0, 275, 125);
+
+        //Sol
+        context.fillStyle = "#A0C44C";
+        context.fillRect(0, 125, 275, 75);
+
+        //Maison
+        context.fillStyle = "#E56830";
+        context.fillRect(0, 75, 150, 100);
+
+        context.fillStyle = "#fff";
+        context.fillRect(60, 135, 30, 40);
+        context.fillStyle = "#A1A3A5";
+        context.fillRect(65, 140, 20, 35);
+
+        context.fillStyle = "#fff";
+        context.fillRect(20, 100, 20, 20);
+        context.fillStyle = "#A1A3A5";
+        context.fillRect(15, 100, 5, 20);
+        context.fillRect(40, 100, 5, 20);
+
+        context.fillStyle = "#fff";
+        context.fillRect(110, 100, 20, 20);
+        context.fillStyle = "#A1A3A5";
+        context.fillRect(105, 100, 5, 20);
+        context.fillRect(130, 100, 5, 20);
+       
+        //Toit maison
+        context.fillStyle = "#2C2D32";
+        context.beginPath();
+        context.moveTo(0, 75);
+        context.lineTo(75, 0);
+        context.lineTo(150, 75);
+        context.fill();
+
+        //Garage
+        context.fillStyle = "#E56830";
+        context.fillRect(175, 100, 100, 75);
+
+        context.fillStyle = "#fff";
+        context.fillRect(190, 125, 75, 50);
+        context.fillStyle = "#A1A3A5";
+        context.fillRect(195, 130, 65, 45);
+
+        //Toit garage
+        context.fillStyle = "#2C2D32";
+        context.beginPath();
+        context.moveTo(175, 100);
+        context.lineTo(225, 50);
+        context.lineTo(275, 100);
+        context.fill();
+    </script>
+</body>
+
+</html>
