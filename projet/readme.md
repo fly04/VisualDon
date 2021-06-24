@@ -30,3 +30,10 @@ Nous avons déterminé que nous allions raconter à travers de jeux de données 
   Type de graph: matrice
 - **Name**
   Type de graph: (nuage de mots?)
+
+## 22 Juin
+
+Le jeu de données finalement utilisé est celui-ci: https://github.com/oganm/dnddata.
+Certains sections ont été abandonnées et d'autres ajoutées pour donner un sens plus logique à l'histoire que l'on souhaite raconter. Nous avons terminé de préparer nos datas et mis en place les différents graphs avec l'html et le CSS.
+
+Le projet est hébergé au lien suivant: https://dnd-graph.surge.sh.
